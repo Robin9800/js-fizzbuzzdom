@@ -11,7 +11,7 @@ for(let squareIndex = 1; squareIndex < 101; squareIndex++){
             message = 'fizz';
     }
         else if(squareIndex % 5 === 0){
-            message = 'fizzbuzz';
+            message = 'buzz';
     }
 
     const element = `<ul id="square" class="square">${message}</div>`;
