@@ -14,7 +14,7 @@ for(let squareIndex = 1; squareIndex < 101; squareIndex++){
             message = 'fizzbuzz';
     }
 
-    const element = `<div id="square-${message}" class="square">${message}</div>`;
+    const element = `<ul id="square" class="square">${message}</div>`;
     divSquares.innerHTML += element;
 
 }
